@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'artists#add'
   get 'artists/add' => 'artists#add'
-  get 'artists/submit' => 'artists#submit'
+  post 'artists/submit' => 'artists#submit'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
